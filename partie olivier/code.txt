@@ -1,0 +1,24 @@
+<label class="pilule" for="submit-quiz"><div class="pilule-rouge"><img src="images/pilule-rouge.png" alt=""></div></label>
+
+
+
+.pilule-rouge{
+    height:25px;
+    width:95px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #fe000098, 0 0 30px #fe000099, 0 0 50px #fe0000a4;
+
+}
+
+
+.pilule-rouge img {
+
+   height: 50px;
+   width: 110px;
+   
+}
+
+background-image: url(images/flamme.jpg);
