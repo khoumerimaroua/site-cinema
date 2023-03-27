@@ -276,9 +276,9 @@
   display: flex;
   position: relative;
   justify-content: center;
-  height: 80%;
+  height: 70%;
   width: 4%;
-  margin-top: 1.5em;
+  margin-top: 1em;
   cursor: pointer;
   transition: transform 0.5s ease;
   right: 20em;
@@ -299,7 +299,7 @@
   top: -30px;
   left: 0;
   width: 100vw;
-  height: 13%;
+  height: 11%;
   background-color: #f9e4b7;
     box-shadow: 0 0 10px #f9e4b7a4, 0 0 30px #f9e4b7af, 0 0 50px #f9e4b77a;
     border-radius: 0 0 50% 50%;
@@ -317,19 +317,19 @@
 }
 
 .lien-acceuil {
-  height: 9vh;
+  height: 8vh;
   margin-top: -11px;
   padding: 1em;
  
 }
 
 .lien-bobine {
-  height: 7vh;
+  height: 6vh;
   margin: 3em;
 }
 
 .lien-clap {
-  height: 6vh;
+  height: 5vh;
   margin: 3em;
 }
 

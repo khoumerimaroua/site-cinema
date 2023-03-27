@@ -83,14 +83,14 @@ scale: 1.1;
 .popcorn-animation {
   position: absolute;
   top: 2em;
-  left: 30em;
+  left: 10em;
   width: 10px;
   height: 10px;
   background-image: url(images/unpopcorn.png);
   background-size: cover;
   animation: popcorn-fall 1s ease-out;
   transform: translateX(100px) translateY(-20px) rotate(45deg);
-  opacity: 1;
+  opacity: 0;
   
   
 }
@@ -126,7 +126,7 @@ scale: 1.1;
   animation: popcorn-fall-three 1s ease-out;
   position: absolute;
   top: 2em;
-  left: 4em;
+  left: 10em;
 }
 
 @keyframes popcorn-fall-three {
@@ -159,7 +159,7 @@ scale: 1.1;
   animation: popcorn-fall-four 1s ease-out;
   position: absolute;
   top: 3em;
-  left: 4em;
+  left: 10em;
 }
 
 @keyframes popcorn-fall-four {
@@ -192,7 +192,7 @@ scale: 1.1;
   animation: popcorn-fall-five 1s ease-out;
   position: absolute;
   top: 5em;
-  left: 5em;
+  left: 10em;
 
 }
 
@@ -225,6 +225,9 @@ scale: 1.1;
 
 .popcorn-animation:nth-child(6) {
   animation: popcorn-fall-six 1s ease-out;
+  position: absolute;
+  top: 2em;
+  left: 10em;
 }
 
 @keyframes popcorn-fall-six {
@@ -255,6 +258,9 @@ scale: 1.1;
 
 .popcorn-animation:nth-child(7) {
   animation: popcorn-fall-seven 1s ease-out;
+  position: absolute;
+  top: 2em;
+  left: 10em;
 }
 
 @keyframes popcorn-fall-seven {
@@ -285,7 +291,9 @@ scale: 1.1;
 
 .popcorn-animation:nth-child(8) {
   animation: popcorn-fall-eight 1s ease-out;
+  position: absolute;
   top: 3em;
+  left:10em;
 
 }
 
@@ -319,7 +327,7 @@ scale: 1.1;
   animation: popcorn-fall-nine 1s ease-out;
   position: absolute;
   top: 3em;
-  left: 4em;
+  left: 10em;
 }
 
 @keyframes popcorn-fall-nine {
@@ -359,9 +367,9 @@ scale: 1.1;
   display: flex;
   position: relative;
   justify-content: center;
-  height: 80%;
+  height: 70%;
   width: 4%;
-  margin-top: 1.5em;
+  margin-top: 1em;
   cursor: pointer;
   transition: transform 0.5s ease;
   right: 20em;
@@ -382,6 +390,7 @@ scale: 1.1;
   color: #ecb828;
   text-align: center;
   position: relative;
+  top: 2em;
 }
 
 input {
