@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox Video Section</title>
+	<style>
+		.flex-container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			margin: 50px;
+			padding: 20px;
+			border: 1px solid black;
+		}
+		.flex-container .video {
+			flex: 1;
+			margin-right: 50px;
+		}
+		.flex-container .content {
+			flex: 1;
+		}
+		.flex-container .content p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.flex-container .content button {
+			padding: 10px 20px;
+			font-size: 16px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<section class="flex-container">
+		<div class="video">
+			<video src="example.mp4" width="400" height="300" controls></video>
+		</div>
+		<div class="content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ex mi. Sed sit amet ligula aliquet, efficitur justo et, faucibus elit. Vivamus laoreet a ipsum in posuere. In hac habitasse platea dictumst. Nullam non rutrum orci. Nunc id bibendum turpis. Pellentesque blandit quam eu urna rutrum dictum.</p>
+			<button>Learn More</button>
+		</div>
+	</section>
+</body>
+</html>
